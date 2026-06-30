@@ -1,0 +1,18 @@
+devices:
+  - name: core-switch
+    host: 192.168.1.10
+    username: admin
+    password: ${SW_PASS}
+    device_type: cisco_ios
+
+  - name: access-switch-1
+    host: 192.168.1.11
+    username: admin
+    password: ${SW_PASS}
+    device_type: cisco_ios
+
+  - name: router-edge
+    host: 192.168.1.1
+    username: admin
+    password: ${ROUTER_PASS}
+    device_type: cisco_ios

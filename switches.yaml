@@ -1,0 +1,16 @@
+vlans:
+  - id: 10
+    name: CORP_DATA
+  - id: 20
+    name: CORP_VOICE
+  - id: 30
+    name: MANAGEMENT
+  - id: 99
+    name: NATIVE_VLAN
+
+switches:
+  - name: access-switch-1
+    host: 192.168.1.11
+    username: admin
+    password: ${SW_PASS}
+    device_type: cisco_ios
